@@ -1,0 +1,11 @@
+import random
+wifes =("Метида", "Фемида", "Гера")
+wife = random.choice(wifes)
+print("Угадайте имя одной из трех официальных жен Зевса")
+name = input("")
+if name == wife:
+ print("Вы угадали!")
+else:
+ print("Вы не угадил!")
+ print("Правильный ответ: ", wife)
+input("Нажмите Enter для выхода")
